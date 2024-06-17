@@ -1,0 +1,1 @@
+cmd_/home/divya/Desktop/dd/assig1/Module.symvers :=  sed 's/ko$$/o/'  /home/divya/Desktop/dd/assig1/modules.order | scripts/mod/modpost -m -a    -o /home/divya/Desktop/dd/assig1/Module.symvers -e -i Module.symvers -T - 
